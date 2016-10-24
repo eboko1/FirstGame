@@ -8,6 +8,6 @@ public class Player {
     int number = 0;
     public void guess(){
         number=(int)(Math.random()*10);
-        System.out.print("Думаю, що число "+number);
+        System.out.println("Думаю, що число "+number);
     }
 }
