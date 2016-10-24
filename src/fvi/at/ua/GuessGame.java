@@ -26,7 +26,7 @@ public class GuessGame {
 
 
         while (true){
-            System.out.println("Число якепотрібно вгадати  " +targetNumber);
+            System.out.println("Число яке потрібно вгадати  " +targetNumber);
             p1.guess();
             p2.guess();
             p3.guess();
