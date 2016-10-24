@@ -26,6 +26,7 @@ public class GuessGame {
 
 
         while (true){
+            System.out.println("Число якепотрібно вгадати  " +targetNumber);
             p1.guess();
             p2.guess();
             p3.guess();
@@ -52,6 +53,8 @@ public class GuessGame {
                 System.out.println("Перший гравець вгадав це число "+guessp1);
                 System.out.println("Другий гравець вгадав це число "+guessp2);
                 System.out.println("Третій гравець вгадав це число "+guessp3);
+                System.out.println("Кінець гри ! ");
+                break;
             } else {
                 System.out.println("Гравці повині повторити ще раз ");
             }
