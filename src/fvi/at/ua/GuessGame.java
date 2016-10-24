@@ -32,11 +32,11 @@ public class GuessGame {
             p3.guess();
 
             guessp1=p1.number;
-            System.out.println("Перший гравець думає, що число буде рівне "+guessp1);
+            System.out.println("Перший гравець думає, що число буде рівне " + guessp1);
             guessp2=p2.number;
-            System.out.println("Другий гравець думає, що число буде рівне "+guessp2);
+            System.out.println("Другий гравець думає, що число буде рівне " + guessp2);
             guessp3=p3.number;
-            System.out.println("Третій гравець думає, що число буде рівне "+guessp3);
+            System.out.println("Третій гравець думає, що число буде рівне " + guessp3);
 
 
             if(guessp1==targetNumber){
@@ -50,9 +50,9 @@ public class GuessGame {
               }
             if (p1isRight||p2isRight||p3isRight){
                 System.out.println("У нас є переможець ! ");
-                System.out.println("Перший гравець вгадав це число "+guessp1);
-                System.out.println("Другий гравець вгадав це число "+guessp2);
-                System.out.println("Третій гравець вгадав це число "+guessp3);
+                System.out.println("Перший гравець вгадав? "+p1isRight);
+                System.out.println("Другий гравець вгадав? "+p2isRight);
+                System.out.println("Третій гравець вгадав? "+p3isRight);
                 System.out.println("Кінець гри ! ");
                 break;
             } else {
