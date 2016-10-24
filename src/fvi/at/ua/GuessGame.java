@@ -31,11 +31,11 @@ public class GuessGame {
             p3.guess();
 
             guessp1=p1.number;
-            System.out.print("Перший гравець думає, що число буде рівне "+guessp1);
+            System.out.println("Перший гравець думає, що число буде рівне "+guessp1);
             guessp2=p2.number;
-            System.out.print("Другий гравець думає, що число буде рівне "+guessp2);
+            System.out.println("Другий гравець думає, що число буде рівне "+guessp2);
             guessp3=p3.number;
-            System.out.print("Третій гравець думає, що число буде рівне "+guessp3);
+            System.out.println("Третій гравець думає, що число буде рівне "+guessp3);
 
 
             if(guessp1==targetNumber){
